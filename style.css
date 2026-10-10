@@ -1,0 +1,13 @@
+body{font-family:Arial,sans-serif;margin:0;color:#102542}header,footer{background:#061b38;color:white;padding:22px;display:flex;justify-content:space-between}section{padding:50px 6%}.hero{background:#061b38;color:white;min-height:300px}span{color:#a447ff}
+.mode-label{display:block;margin:14px 0 6px;font-size:13px;font-weight:700;color:#304968}.mode-select{width:100%;max-width:360px;padding:11px;border:1px solid #b9cce2;border-radius:10px;background:#fff;color:#18314f;font:inherit}.backend-note{font-size:12px;color:#667b94;min-height:18px}
+
+.result-download{display:inline-block;margin-left:8px;color:#175fe8;font-weight:700}.btn:disabled{opacity:.65;cursor:wait}
+
+.mode-label{display:block;margin:14px 0 6px;font-size:13px;font-weight:700;color:#304968}.mode-select{width:100%;max-width:360px;padding:11px;border:1px solid #b9cce2;border-radius:10px;background:#fff;color:#18314f;font:inherit}.backend-note{font-size:12px;color:#667b94;min-height:18px}.result-download{display:inline-block;margin-left:8px;color:#175fe8;font-weight:700}.btn:disabled{opacity:.65;cursor:wait}#status,#msg{overflow-wrap:anywhere}
+
+/* Before/after comparison and explicit save controls */
+.comparison{width:100%;min-height:180px}.comparison-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.comparison-grid figure{margin:0;min-width:0;background:#f3f7fc;border:1px solid #dce6f2;border-radius:14px;padding:10px}.comparison-grid figcaption{font-size:11px;letter-spacing:1.5px;font-weight:800;color:#536b88;margin-bottom:8px}.comparison-grid img{display:none;width:100%;height:260px;object-fit:contain;border-radius:8px;background:#e7edf6}.save-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}.btn.secondary{background:#fff;color:#1554c0;border:1px solid #b9cce2;cursor:pointer}.btn:disabled{opacity:.45;cursor:not-allowed}.preview .comparison-grid{margin-top:10px}
+@media(max-width:640px){.comparison-grid{grid-template-columns:1fr}.comparison-grid img{height:220px}header{flex-wrap:wrap;gap:12px}header nav{display:flex;flex-wrap:wrap;gap:10px}}
+
+/* Accessible language selector */
+.language-select{background:#101b3d;color:#fff;border:1px solid rgba(255,255,255,.28);border-radius:10px;padding:10px 12px;font:inherit;max-width:145px}.language-select option{background:#101b3d;color:#fff}.language-wrap{display:inline-flex;align-items:center}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:760px){header{flex-wrap:wrap}.language-wrap{margin-left:auto}}
